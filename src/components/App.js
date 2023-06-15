@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
         <input type="text" onChange={(e) => {
-          setInput(e.target.value)
+          setInput('Hello ' + e.target.value)
         }}/>
         <p>{input}</p>
     </div>
